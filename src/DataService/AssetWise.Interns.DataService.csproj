@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp1.1</TargetFramework>
+        <AssemblyName>AssetWise.Interns.DataService</AssemblyName>
+        <RootNamespace>AssetWise.Interns.DataService</RootNamespace>
+        <SignAssembly>True</SignAssembly>
+        <AssemblyOriginatorKeyFile>DataService.snk</AssemblyOriginatorKeyFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Common\AssetWise.Interns.Common.csproj" />
+    </ItemGroup>
+
+</Project>

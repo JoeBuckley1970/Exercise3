@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp1.1</TargetFramework>
+        <AssemblyName>AssetWise.Interns.Common</AssemblyName>
+        <RootNamespace>AssetWise.Interns.Common</RootNamespace>
+        <SignAssembly>True</SignAssembly>
+        <AssemblyOriginatorKeyFile>Common.snk</AssemblyOriginatorKeyFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
+        <PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+    </ItemGroup>
+
+</Project>
